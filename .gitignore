@@ -1,0 +1,14 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# large downloads - fetched via download_weights.ps1 instead of git
+weights/*.weights
+cloudflared.exe
+
+# generated outputs
+static/
+
+# gradio cache
+.gradio/
